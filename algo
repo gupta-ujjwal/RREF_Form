@@ -1,0 +1,24 @@
+1- start
+2- Declare an array of size n+1 //n+1 is for markers
+3- first row should have an element at 0th pos. if not replace it with the next row having 1 as marker for this send the array to func rep()
+4- Declare a for loop with i=0 to i<n
+5- pass the array and i to a function(mark) which  marks 0 row i.e. 0 if first element is 0 else 1
+6- now pass the array and i to func div() which divides the element of the whole row with ith element if marker of row=1 
+7- now pass the array and i to a function which ssubtracts each row with marker 1 with the i row 
+8- for loop ends
+9- print
+
+
+
+
+			0  2  3	 4	1 4 6 3  1 4 6 3   1 4 6  3 
+			1  4  6	 3      0 2 3 4	 0 2 3 4   0 2 3 4 
+			3  4  5  2      3 4 5 2  0-8-13-7  0 0 -1 9
+			2  2  4  2	2 2 4 2  0-6-8 -14 0 0 1  -2
+				
+
+
+				1 4 6 3
+				0 2 3 4 
+				0 0 -1 9
+				0 0 0 7
