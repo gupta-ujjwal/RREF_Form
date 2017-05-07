@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.scanner;
 
 public class RREF
 {
@@ -107,7 +107,7 @@ for(i=0;i<row;i++)
 for(i=0;i<row;i++)
 {
 	for(j=0;j<col;j++)
-		System.out.print(a[i][j]+"            ");
+		System.out.print((int)a[i][j]+"            ");
 	System.out.println();
 }
 }
